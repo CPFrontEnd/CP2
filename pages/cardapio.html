@@ -8,30 +8,34 @@
     <title>Restaurante Japonês</title>
 </head>
 <body>
-        <header>
-            <div class="logo-area">
-                <img src="../src/assets/icone.png" alt="Logo" class="logo">
-                <p class="restaurant-name">Restaurante Japonês</p>
-              </div>
-            <nav>
-                <ul>
-                    <li><a href=".././index.html">Home</a></li>
-                    <li><a href="../pages/cardapio.html">Cardápio</a></li>
-                    <li><a href="../pages/sobre.html">Sobre</a></li>
-                    <li><a href="../pages/contato.html">Contato</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
+    <header>
+        <div class="logo-area">
+            <img src="../src/assets/icone.png" alt="Logo" class="logo">
+            <p class="restaurant-name">Restaurante Japonês</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/cardapio.html">Cardápio</a></li>
+                <li><a href="../pages/sobre.html">Sobre</a></li>
+                <li><a href="../pages/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Conteúdo principal à esquerda -->
+        <div class="conteudo-principal">
+            <h1 class="titulo-cardapio">Pratos À La Carte</h1>
+
             <div class="cardapio">
-                <h1>Pratos</h1>
                 <article class="produto">
                     <h2>Sashimi da casa</h2>
                     <img src="../src/assets/imagem4.jpg" alt="image">
-                    <p>Combo de sashimi que contem:</p>
-                    <p>-Fatias de salmão, atum, peixe branco e ovas de salmão.</p>
+                    <p>Combo de sashimi que contém:</p>
+                    <p>- Fatias de salmão, atum, peixe branco e ovas de salmão.</p>
                     <p>Acompanhado de nabo ralado, gengibre, wasabi e fatias de limão.</p>
-                    <p class="preco">R$ 35.78</p>
+                    <p class="preco">R$ 35,78</p>
                     <button type="submit">Adicionar ao carrinho</button>
                 </article>
 
@@ -39,19 +43,19 @@
                     <h2>Combinado de sushi</h2>
                     <img src="../src/assets/imagem5.jpg" alt="image">
                     <p>Combinado que inclui:</p>
-                    <p>-Niguiri de salmão, camarão, kani, polvo, tamago (omelete japonês).</p>
+                    <p>- Niguiri de salmão, camarão, kani, polvo, tamago (omelete japonês).</p>
                     <p>Além de hossomakis de salmão e tamago.</p>
-                    <p class="preco">R$ 30.46</p>
+                    <p class="preco">R$ 30,46</p>
                     <button type="submit">Adicionar ao carrinho</button>
                 </article>
 
                 <article class="produto">
                     <h2>Combo fusão gourmet</h2>
                     <img src="../src/assets/imagem6.jpg" alt="image">
-                    <P>Prato completo que junta:</P>
-                    <p>-Sashimis de salmão e atum, tempurá de camarão, guizas grelhados, croquete de peixe, hot holl com ovas,</p>
-                    <p>frutos do mar, mussarela de búfalo e manjericão.</p>
-                    <p class="preco">R$ 43.99</p>
+                    <p>Prato completo que junta:</p>
+                    <p>- Sashimis de salmão e atum, tempurá de camarão, guiozas grelhados, croquete de peixe, hot roll com ovas,</p>
+                    <p>frutos do mar, mussarela de búfala e manjericão.</p>
+                    <p class="preco">R$ 43,99</p>
                     <button type="submit">Adicionar ao carrinho</button>
                 </article>
 
@@ -59,37 +63,50 @@
                     <h2>Porção de sashimi</h2>
                     <img src="../src/assets/imagem7.jpg" alt="image">
                     <p>Combo de sashimi com:</p>
-                    <p>-Sashimi de salmão, atum, peixe branco, peixe gordo e sashimi com cebola crispy.</p>
+                    <p>- Sashimi de salmão, atum, peixe branco, peixe gordo e sashimi com cebola crispy.</p>
                     <p>Servido sobre cama de nabo ralado com wasabi e gengibre em conserva.</p>
-                    <p class="preco">R$ 26.19</p>
+                    <p class="preco">R$ 26,19</p>
                     <button type="submit">Adicionar ao carrinho</button>
                 </article>
-
             </div>
+        </div>
 
-    
-        </main>
-        <footer>
-            <div class="footer-content">
-                <div class="contato">
-                    <h3>Contato</h3>
-                    <p>Email: contato@email.com</p>
-                    <p>Telefone: (11) 1234-5678</p>
-                </div>
-                <div class="redesSociais">
-                    <h3>Redes Sociais</h3>
-                    <ul>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">Twitter</a></li>
-                    </ul>
-                </div>
-                <div class="direitos">
-                    <p>&copy; 2025. Todos os direitos reservados.</p>
-                </div>
+        <!-- Aside à direita -->
+        <aside>
+            <div class="promoção">
+                <ul>
+                    <li>Rodízio</li>
+                    <p class="valor">R$89,90 p/pessoa</p>
+                    <li>Buffet à vontade</li>
+                    <p class="valor">R$150,00 p/pessoa</p>
+                    <li>Pacote de bebidas s/ álcool</li>
+                    <p class="valor">R$150,00 p/mesa</p>
+                    <li>Pacote bebidas alcoólicas</li>
+                    <p class="valor">R$230,00 p/mesa</p>
+                </ul>
             </div>
-        </footer>
+        </aside>
+    </main>
 
-    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="contato">
+                <h3>Contato</h3>
+                <p>Email: contato@email.com</p>
+                <p>Telefone: (11) 1234-5678</p>
+            </div>
+            <div class="redesSociais">
+                <h3>Redes Sociais</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+            <div class="direitos">
+                <p>&copy; 2025. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
