@@ -100,7 +100,17 @@ main {
     flex-wrap: wrap;
     height: 100;
 }
-
+.contato-pages{
+    display:flexbox;
+    gap: 10px;
+    flex: 1;
+}
+.contato-pages img{
+    width: 100%;
+    height: 40vh;
+    object-fit:cover;
+    margin-bottom: 10px;
+}
 .cardapio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
