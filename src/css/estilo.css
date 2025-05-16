@@ -251,6 +251,64 @@ footer {
     text-decoration: none;
 }
 
+.formulario {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px 20px;
+    max-width: 500px;
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #a30000;
+    font-size: 1.6rem;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.formulario input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.formulario button {
+    align-self: flex-end;
+    width: 100%;
+    background: #a30000;
+    color: #fff;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid #a30000; 
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.formulario button:hover {
+    background: #fff;
+    color: #a30000;
+    border: 2px solid #a30000;
+}
+
+
 body.body-sobre{
     min-height: 100%;
     min-width: 100%;
