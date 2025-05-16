@@ -106,13 +106,7 @@ main {
     flex: 1;
 }
 .body-contato{
-    background: linear-gradient(to bottom,#fff,#e6e4e4,#750202,#750202);
-}
-.contato-pages img{
-    width: 100%;
-    height: 40vh;
-    object-fit:cover;
-    margin-bottom: 10px;
+    background: linear-gradient(to bottom,#fff,#e6e4e4,#980404,#750202);
 }
 
 .cardapio {
